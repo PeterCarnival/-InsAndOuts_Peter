@@ -21,7 +21,7 @@ void setup() {
     println("Error loading image file: " + e.getMessage());
     e.printStackTrace();
   }
-
+ 
   smooth();
   restart();
 
